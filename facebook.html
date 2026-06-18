@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Page</title>
+    <style>
+        body
+        {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+
+        
+        h2
+        {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        h1
+        {
+            color: #1877f2;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        button
+        {
+            background: #36a420;
+        }
+
+        input, select
+        {
+        width: 100%;
+        padding: 5px;
+        margin: 4px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        }
+        
+        gender label
+        {
+        border: 1px solid #ccc;
+        padding: 8px;
+        border-radius: 5px;
+        width: 30%;
+        text-align: center;
+        }
+        
+        gender
+        {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+    
+<div>
+    <h1>----CREATE ACCOUNT----</h1>
+    <h2>Get started on Facebook</h2>
+    <p> Create an account to connect with friends, family and communities of people who share your interests.</p>
+      
+    <form action="">
+        
+                 <label for="fname">First Name </label>
+                 <input type="text"  id ="fname" placeholder="enter your first name ">
+
+
+                 <label for="">Last Name </label>
+                 <input type="text" placeholder="enter your last name ">
+                
+                    <label for="">E-mail </label>
+                    <input type="email" placeholder="abc@gmail.com ">
+            
+                    <label for="">Password </label>
+                    <input type="password">
+                    
+                    
+                    <label for="">Gender </label>
+                   <div>
+                    <label for="">Male </label><input type="radio" value="Male" name="g1">
+                    <label for="">Female </label><input type="radio" value="Female" name="g1">
+                    </div>
+
+                    
+                   <label for="">Date of Birth </label>
+                   <input type="date">
+                
+
+                   <input type="email" placeholder="Mobile number or email address" >
+                   <input type="password" placeholder="New password" >
+
+                   <button type="submit">Sign Up</button>
+                   <button type="submit">I have already account</button>
+    </form>
+    
+</div>
+</body>
+</html>
